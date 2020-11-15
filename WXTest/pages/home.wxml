@@ -1,0 +1,72 @@
+<!--pages/home.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="page__bd" style="height: 100%;">
+		<view class="weui-tab">
+			<view class="weui-tab__panel">
+      </view>
+      <view class="weui-grids">
+    <view class="page__hd">
+      <a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="../images/WUKONG.png" alt></image>
+					</view>
+					<view class="weui-media-box__bd">
+						<h4 class="weui-media-box__title">悟空</h4>
+						<view class="weui-media-box__desc">三年级小学生。</view>
+					</view>
+				</a>
+	</view>
+  
+  <view class="weui-flex">
+			<view class="weui-flex__item"><view class="placeholder">不会吧不会吧不会真的有人不学习吧！</view></view>
+		</view>
+
+
+  <view class="view_list">
+    <view class="view_item">      <view class="view_type">        <navigator url="wenzi/wenzi" open-type="navigate" class="navigate_item">          <image src="../images/YW.png" class="swiper_head" mode="aspectFit" /> 语文        </navigator>      </view>    </view>
+    <view class="view_item">      <view class="view_type">        <navigator url="shenfenzheng/shenfenzheng" open-type="navigate" class="navigate_item">          <image src="../images/YW.png" class="swiper_head" mode="aspectFit" /> 记录        </navigator>      </view>    </view>
+    <view class="view_item">      <view class="view_type">        <navigator url="quiz/math_quiz" open-type="navigate" class="navigate_item">          <image src="../images/YW.png" class="swiper_head" mode="aspectFit" /> 数学        </navigator>      </view>    </view>
+    <view class="view_item">      <view class="view_type">        <navigator url="wupin/wupin" open-type="navigate" class="navigate_item">          <image src="../images/YW.png" class="swiper_head" mode="aspectFit" /> 待开发        </navigator>      </view>    </view>
+    <view class="view_item">      <view class="view_type">        <navigator url="zhiwu/zhiwu" open-type="navigate" class="navigate_item">          <image src="../images/YW.png" class="swiper_head" mode="aspectFit" /> 英语        </navigator>      </view>    </view>
+    <view class="view_item">      <view class="view_type">        <navigator url="dongwu/dongwu" open-type="navigate" class="navigate_item">          <image src="../images/YW.png" class="swiper_head" mode="aspectFit" /> 待开发        </navigator>      </view>    </view>
+  </view>
+		
+		
+	</view>
+			<view class="weui-tabbar">
+				<view class="weui-tabbar__item weui-bar__item_on">
+					<view style="display: inline-block; position: relative;">
+            <navigator url="home">
+            <image src="../images/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
+            </navigator>
+					</view>
+					<view class="weui-tabbar__label">首页</view>
+        </view>
+				<view class="weui-tabbar__item">
+          <navigator url="material/material">
+          <image src="../images/icon_tabbar.png" alt class="weui-tabbar__icon" ></image>
+        </navigator>
+					<view class="weui-tabbar__label">资料</view>
+        </view>
+				<view class="weui-tabbar__item">
+					<view style="display: inline-block; position: relative;">
+						<navigator url="scan/scan">
+						<image src="../images/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
+						</navigator>
+					</view>
+					<view class="weui-tabbar__label">扫一扫</view>
+				</view>
+				<view class="weui-tabbar__item">
+					<navigator url='mine/mine'>
+					<image src="../images/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
+					</navigator>
+					<view class="weui-tabbar__label">我的</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+
+
+

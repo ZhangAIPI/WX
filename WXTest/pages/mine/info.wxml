@@ -1,0 +1,78 @@
+<!--pages/mine/info.wxml-->
+<view class="weui-cells">
+			<view class="weui-cell weui-cell_active">
+				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
+					<image src="../../images/YW.png" style="width: 50px;height:50px; display: block;"></image>
+				</view>
+				<view class="weui-cell__bd">
+					<view>姓名</view>
+					<view style="font-size: 13px; color: #888;">王小冰</view>
+				</view>
+      </view>
+      
+      <view class="weui-cell weui-cell_active">
+				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
+					<image src="../../images/YW.png" style="width: 50px;height:50px; display: block;"></image>
+				</view>
+				<view class="weui-cell__bd">
+					<view>住址</view>
+					<view style="font-size: 13px; color: #888;">北京市海淀区</view>
+				</view>
+      </view>
+      
+      <view class="weui-cell weui-cell_active">
+				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
+					<image src="../../images/YW.png" style="width: 50px;height:50px; display: block;"></image>
+				</view>
+				<view class="weui-cell__bd">
+					<view>学校</view>
+					<view style="font-size: 13px; color: #888;">北大附小</view>
+				</view>
+      </view>
+      
+      <view class="weui-cell weui-cell_active">
+				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
+					<image src="../../images/YW.png" style="width: 50px;height:50px; display: block;"></image>
+				</view>
+				<view class="weui-cell__bd">
+					<view>年级</view>
+					<view style="font-size: 13px; color: #888;">三年级</view>
+				</view>
+      </view>
+      
+      <view class="weui-cell weui-cell_active">
+				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
+					<image src="../../images/YW.png" style="width: 50px;height:50px; display: block;"></image>
+				</view>
+				<view class="weui-cell__bd">
+					<view>班级</view>
+					<view style="font-size: 13px; color: #888;">8班</view>
+				</view>
+      </view>
+      
+      <view class="weui-cell weui-cell_active">
+				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
+					<image src="../../images/YW.png" style="width: 50px;height:50px; display: block;"></image>
+				</view>
+				<view class="weui-cell__bd">
+					<view>学号</view>
+					<view style="font-size: 13px; color: #888;">A20170821</view>
+				</view>
+      </view>
+      
+      <view class="weui-cell weui-cell_active">
+				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
+					<image src="../../images/YW.png" style="width: 50px;height:50px; display: block;"></image>
+				</view>
+				<view class="weui-cell__bd">
+					<view>联系方式</view>
+					<view style="font-size: 13px; color: #888;">18826937810</view>
+				</view>
+      </view>
+      
+      
+    </view>
+    
+    <view class="button-sp-area">
+			<a  bindtap="open" data-url="change" class="weui-btn weui-btn_default">修改个人信息</a>
+		</view>

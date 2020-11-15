@@ -1,0 +1,35 @@
+/* pages/index/material.wxss */
+
+.weui-tabbar{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.search-input {
+  position: relative;
+  width: 686rpx;
+  margin: 0 32rpx;
+  height: 68rpx;
+  -webkit-overflow-scrolling: touch;
+  background: #fff;
+  border-radius: 32rpx;
+  font-size: 24rpx;
+  color: #1f272a;
+  padding-left: 96rpx;
+  box-sizing: border-box;
+}
+.search-placeholder {
+  font-size: 28rpx;
+}
+
+.placeholder{
+  margin: 5px;
+  padding: 0 10px;
+  text-align: center;
+  background-color: rgb(130, 180, 247);
+  height: 2.3em;
+  line-height: 2.3em;
+  color: var(--weui-FG-1);
+}

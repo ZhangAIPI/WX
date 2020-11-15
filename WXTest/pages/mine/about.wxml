@@ -1,0 +1,17 @@
+<!--pages/mine/about.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="weui-msg">
+		<view class="weui-msg__icon-area"><i class="weui-icon-success weui-icon_msg"></i></view>
+		<view class="weui-msg__text-area">
+			<h2 class="weui-msg__title">FAKE NEWS</h2>
+      <view class="weui-msg__desc">版权没有，抄袭随意。</view>
+      <view class="weui-msg__desc">如有重复，十分荣幸！</view>
+		</view>
+		
+		<view class="weui-msg__extra-area">
+			<view class="weui-footer">
+				<view class="weui-footer__text">Copyright &copy; 2020-2099 National 308 Sci&Technology Lab</view>
+			</view>
+		</view>
+	</view>
+</view>

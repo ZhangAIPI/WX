@@ -1,0 +1,70 @@
+<!--pages/index/material.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<input class="search-input"  maxlength="10" bindinput="bindKeyInput" placeholder-class="search-placeholder" placeholder="搜索"/>
+
+
+	<view class="weui-flex">
+			<view class="weui-flex__item"><view class="placeholder">专项练习</view></view>
+			<view class="weui-flex__item"><view class="placeholder">随机练习</view></view>
+		</view>
+
+		<view class="weui-panel weui-panel_access">
+			<view class="weui-panel__hd">继续</view>
+			<view class="weui-panel__bd">
+				<view class="weui-media-box weui-media-box_text">
+					<h4 class="weui-media-box__title">继续上一次刷题</h4>
+					<h4 class="weui-media-box__desc">语文三年级题库。</h4>
+					<h4 class="weui-media-box__desc">已练习 22/50 1小时前</h4>
+				</view>
+				<view class="weui-media-box weui-media-box_text">
+					<h4 class="weui-media-box__title">继续上一次刷题</h4>
+					<h4 class="weui-media-box__desc">数学三年级题库。</h4>
+					<h4 class="weui-media-box__desc">已练习 27/50 2小时前</h4>
+				</view>
+			</view>
+			<view class="weui-panel__ft">
+				<a class="weui-cell weui-cell_active weui-cell_access weui-cell_link">
+					<view class="weui-cell__bd">查看更多</view>
+					<text class="weui-cell__ft"></text>
+				</a>
+			</view>
+		</view>
+
+	<!--下方四个框-->
+		<view class="page__bd" style="height: 100%;">
+		<view class="weui-tab">
+			<view class="weui-tab__panel">
+			</view>
+			<view class="weui-tabbar">
+				<view class="weui-tabbar__item">
+					<view style="display: inline-block; position: relative;">
+            <navigator url="../home">
+            <image src="../../images/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
+            </navigator>
+					</view>
+					<view class="weui-tabbar__label">首页</view>
+        </view>
+				<view class="weui-tabbar__item  weui-bar__item_on">
+          <navigator url="material">
+          <image src="../../images/icon_tabbar.png" alt class="weui-tabbar__icon" ></image>
+        </navigator>
+					<view class="weui-tabbar__label">资料</view>
+        </view>
+				<view class="weui-tabbar__item">
+					<view style="display: inline-block; position: relative;">
+						<navigator url='../scan/scan'>
+						<image src="../../images/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
+						</navigator>
+					</view>
+					<view class="weui-tabbar__label">扫一扫</view>
+				</view>
+				<view class="weui-tabbar__item">
+					<navigator url='../mine/mine'>
+					<image src="../../images/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
+					</navigator>>
+					<view class="weui-tabbar__label">我的</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,46 @@
+<!--pages/scan/scan.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="container">
+  <button bindtap='getScancode'>加入课堂</button>
+  <view wx:if="{{result !=''}}">
+    <view>扫码的内容:{{result}}</view>
+  </view>
+</view>
+
+		
+		
+			<view class="weui-tabbar">
+				<view class="weui-tabbar__item weui-bar__item_on">
+					<view style="display: inline-block; position: relative;">
+            <navigator url="../home">
+            <image src="../../images/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
+            </navigator>
+					</view>
+					<view class="weui-tabbar__label">首页</view>
+        </view>
+				<view class="weui-tabbar__item">
+          <navigator url="../material/material">
+          <image src="../../images/icon_tabbar.png" alt class="weui-tabbar__icon" ></image>
+        </navigator>
+					<view class="weui-tabbar__label">资料</view>
+        </view>
+				<view class="weui-tabbar__item">
+					<view style="display: inline-block; position: relative;">
+						<image src="../../images/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
+					</view>
+					<view class="weui-tabbar__label">扫一扫</view>
+				</view>
+				<view class="weui-tabbar__item">
+          <navigator url='../mine/mine'>
+          <image src="../../images/icon_tabbar.png" alt class="weui-tabbar__icon"></image>
+        </navigator>
+					<view class="weui-tabbar__label">我的</view>
+				</view>
+			</view>
+		</view>
+
+
+
+
+
+
